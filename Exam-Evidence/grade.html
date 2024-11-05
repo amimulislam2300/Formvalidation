@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grade</title>
+</head>
+<body>
+    <h2>Check Grade</h2>
+    <script>
+        var marks = prompt("Enter your number: ");
+        var fullmarks = 100;
+        var marks = (marks/fullmarks)*100;
+
+        if(marks>=80){
+            document.write("A+");
+        }else if(marks>=70){
+            document.write("A");
+        }else if(marks>=60){
+            document.write("B");
+        }else{
+            document.write("Fail");
+        }
+    </script>
+</body>
+</html>
